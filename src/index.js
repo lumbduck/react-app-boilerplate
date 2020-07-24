@@ -9,9 +9,10 @@ import { Provider } from 'react-redux';
 import { configureStore } from './store.js';
 import App from './App.js';
 
-
-// The remainder of this file is configured for persistent local storage.
-// Omit (and see below) if not using redux-persist.
+/*
+The remainder of this file is configured for persistent local storage.
+Omit (and see below) if not using redux-persist.
+*/
 const store = configureStore();
 const persistor = persistStore(store);
 
@@ -26,9 +27,10 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-// If not using redux-persist, replace everything above
-// (after the store declaration) with this:
-
+/*
+If not using redux-persist, replace everything above
+(after the store declaration) with this:
+*/
 // ReactDOM.render(
 //     <Provider store={configureStore()} >
 //         <App />
