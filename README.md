@@ -7,7 +7,7 @@
     - `npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react`
     - `npm install react react-dom`
     - `npm install --save-dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader`
-    - `npm install redux react-redux`
+    - `npm install redux react-redux reselect`
     - optional (to provide support for local persistent storage):
         - `npm install redux-persist`
         - NOTE: if you skip this step, see imports and comments in both `src/store.js` and `src/index.js`
