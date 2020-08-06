@@ -2,7 +2,6 @@
 
 ### Steps to start building your app
 1. Copy/clone entire contents of this project to your new (empty) project folder (make sure to include .babelrc; a base .gitignore file is also included if desired)
-    - This is a good time to run `git init` if you intend to use `git` for source control.
 2. Ensure you are using npm v6.14.x or higher (`npm -v`) and node v13.12.x or higher (`node -v`)
 3. Navigate to the root directory of your project and run `npm init` and follow the prompts.
     - When asked for an entry point, make sure to enter `index.js`.
