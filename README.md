@@ -21,8 +21,8 @@
     - optional (to enable hot loading):
         - `npm install --save-dev react-hot-loader`
         - NOTE: if you skip this step, replace the `default export` in `src/App.js` with `export default App`, and omit the `--hot` option from your launch command in steps 5 and 6, below.
-5. Finally, run `npx webpack-dev-server --hot --mode development` to launch the app in development mode (if you didn't install `react-hot-loader` then omit `--hot` from the launch command). You should now be able to load the contents of `App.js` at http://localhost:3000/. It simply renders "Hello, World!"
-6. If you would like a shorter alias for launching the app, you can insert the following into the `scripts` object in `package.json`: `"dev": "npx webpack-dev-server --hot --mode development",` (if you didn't install `react-hot-loader` then omit `--hot` from this line). Now you can simply run `npm run dev` as an alias for starting the dev build.
+5. Finally, run `npx webpack serve --hot --mode development` to launch the app in development mode (if you didn't install `react-hot-loader` then omit `--hot` from the launch command). You should now be able to load the contents of `App.js` at http://localhost:3000/. It simply renders "Hello, World!"
+6. If you would like a shorter alias for launching the app, you can insert the following into the `scripts` object in `package.json`: `"dev": "npx webpack serve --hot --mode development",` (if you didn't install `react-hot-loader` then omit `--hot` from this line). Now you can simply run `npm run dev` as an alias for starting the dev build.
 7. You may also like to see the dist folder which is typically suppressed when running webpack in development mode. You can add another alias, `"build": "npx webpack --mode development",`, after the `"dev": ...` alias added in step 6. Running `npm run build` will now populate the dist folder in you project root.
 
 ### Additional features
