@@ -1,4 +1,4 @@
-## Use this repo to create a React/Redux app with Node backend and Babel/Webpack for client compatibility
+## Use this template to create a React/Redux app with Node backend (using Babel/Webpack for client compatibility)
 
 ### Steps to start building your app
 1. Copy/clone entire contents of this project to your new (empty) project folder (make sure to include .babelrc; a base .gitignore file is also included if desired)
